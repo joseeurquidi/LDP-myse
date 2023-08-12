@@ -86,7 +86,7 @@ h4.style{
   background: rgba(0, 0, 0, 1);
   transition: all 0.5s;
   height: 90px;
-  z-index: 99999;
+  z-index: 10;
 }
 
 .page-header .logo{
@@ -464,6 +464,73 @@ i.checks-nosotros{
   align-items: center;
   justify-content: start;
 }
+
+/* proyectos */
+.proyectos{
+  padding: 115px 0px 120px 0px;
+}
+
+.proyect-image-box{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.proyect-image{
+  background-image: url(https://placehold.co/600x600);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+.proyect-image-box:hover .proyect-image,
+.proyect-image-box:focus .proyect-image{
+  transform: scale(1.2);
+}
+
+.proyect-image-box::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 0%;
+  left: 0px;
+  top: 0px;
+  transition: all 500ms ease;
+  background: #ef502f;
+  color: white;
+  opacity: 0.9;
+}
+
+.proyect-image-box:hover::after{
+  height: 100%;
+}
+
+.proyect-image-link{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(0,0);
+  font-size: 60px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 200;
+  z-index: 1;
+  transition: all 500ms ease;
+  -webkit-transition-delay: 500ms;
+  -moz-transition-delay: 500ms;
+  -ms-transition-delay: 500ms;
+  -o-transition-delay: 500ms;
+  transition-delay: 500ms;
+}
+
+.proyect-image-box:hover .proyect-image-link{
+  transform: translate(-50%,-50%) scale(1,1);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
