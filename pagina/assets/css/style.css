@@ -7,16 +7,6 @@ body {
   color: #444444;
 }
 
-a {
-  color: #47b2e4;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #73c5eb;
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -46,7 +36,7 @@ a:hover {
 .page-header{
   position: sticky;
   top: 0px;
-  background: rgba(25, 25, 25, 0.95);
+  background: rgba(0, 0, 0, 1);
   transition: all 0.5s;
   height: 90px;
 }
@@ -134,6 +124,29 @@ a:hover {
     left: 0px;
   }
 }
+
+/* inicio */
+
+.hero{
+  background-image: url(../img/inicio/abstract-burning-bright-smoke-black-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .logo{
+  max-width: 700px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .hero .logo{
+    max-width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
