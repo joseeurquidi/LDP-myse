@@ -375,7 +375,7 @@ i.checks-nosotros{
   -o-transition: all 1500ms ease;
   -moz-transition: all 1500ms ease;
   transition: all 1500ms ease;
-  background: #cc5e28;
+  background: #ef502f;
 }
 
 /* Servicios */
@@ -402,7 +402,7 @@ i.checks-nosotros{
   left: 0px;
   top: 0px;
   transition: all 500ms ease;
-  background: #cc5e28;
+  background: #ef502f;
 }
 
 .service-box:hover{
@@ -435,6 +435,34 @@ i.checks-nosotros{
   line-height: 24px;
   font-weight: 700;
   transition: all 500ms ease;
+}
+
+/* diseños */
+.diseños{
+  padding: 115px 0px 120px 0px;
+}
+
+.disign-box{
+  background-color: #f5f0f0;
+  padding: 2rem 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.icon-design-box{
+  width: 78px;
+  height: 78px;
+  line-height: 78px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  background: #ef502f;
+}
+
+.icon-text-box{
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 /*--------------------------------------------------------------
 # Back to top button
