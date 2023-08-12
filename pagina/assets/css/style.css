@@ -531,6 +531,12 @@ i.checks-nosotros{
   transform: translate(-50%,-50%) scale(1,1);
 }
 
+/* extgintores */
+.extintores{
+  background-color: #f5f0f0;
+  padding: 115px 0px 120px 0px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
