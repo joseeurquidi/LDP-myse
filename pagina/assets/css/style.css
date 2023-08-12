@@ -289,6 +289,8 @@ h4.style{
   z-index: -1;
 }
 
+
+
 .info-img-nosotros{
   position: absolute;
   background-color: #ef502f;
@@ -298,6 +300,64 @@ h4.style{
   text-align: center;
   padding: 30px 50px 30px;
   max-width: 200px;
+}
+
+@media (max-width: 1400px) {
+  .wrapper-img-nosotros::before{
+    left: -30px;
+  }
+
+  .info-img-nosotros{
+    left: -30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper-img-nosotros::before{
+    left: -20px;
+    height: calc(100% - 130px);
+  }
+
+  .info-img-nosotros{
+    left: -20px;
+    bottom: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper-img-nosotros{
+    text-align: center;
+  }
+  .wrapper-img-nosotros::before{
+    left: -20px;
+    height: calc(100% - 110px);
+  }
+
+  .info-img-nosotros{
+    left: -20px;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper-img-nosotros{
+    padding-right: 0px;
+  }
+  .wrapper-img-nosotros::before{
+    left: -5px;
+    height: calc(100% - 110px);
+  }
+
+  .info-img-nosotros{
+    left: -5px;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .info-img-nosotros{
+    padding: 20px;
+  }
 }
 
 .icon-text-nosotros{
