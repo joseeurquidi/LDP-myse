@@ -134,6 +134,10 @@ a:hover {
   background-size: cover;
 }
 
+.hero-add{
+  padding: 100px 0px;
+}
+
 .hero .logo{
   max-width: 700px;
   padding-top: 7rem;
@@ -145,6 +149,31 @@ a:hover {
   .hero .logo{
     max-width: 100%;
   }
+}
+
+.wrapper-hero-text{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-flow: column;
+  margin: 5rem 0px;
+}
+
+.wrapper-hero-img{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-flow: column;
+  margin: 5rem 0px;
+}
+
+.hero-btn{
+  background-color: #ef502f;
+  color: white;
+}
+.logo-2{
+  max-width: 340px;
+  height: auto;
 }
 
 /*--------------------------------------------------------------
