@@ -537,6 +537,53 @@ i.checks-nosotros{
   padding: 115px 0px 120px 0px;
 }
 
+/* capacitaciones */
+.capacitaciones{
+  padding: 115px 0px 120px 0px;
+}
+
+.capacitacion-img{
+  background-image: url(https://placehold.co/600x600);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.capacitacion-text{
+  background-color: #f5f0f0;
+  padding: 30px;
+}
+
+.capacitacion-parag{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.capaciacion-link{
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #2d2727;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.capaciacion-link:hover{
+  background: #ef502f;
+  color: white;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
