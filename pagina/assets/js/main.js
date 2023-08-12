@@ -9,6 +9,12 @@ function closeMenu(){
     document.getElementById("hover-interactive-header").classList.remove("active")
 }
 
+addEventListener("resize", (event) => {
+    if(window.innerWidth > 991 && document.getElementById("container-links").classList.contains("active")){
+        closeMenu()
+    }
+});
+
 
 /**
  * Back to top button
