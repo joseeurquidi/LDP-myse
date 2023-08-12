@@ -30,6 +30,37 @@ a:hover {
   text-decoration: none;
 }
 
+.small-title{
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #716868;
+  padding-bottom: 4px;
+}
+.small-title::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  bottom: 0px;
+  background: #ef502f;
+}
+
+.title-section{
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+h4.style{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
 
 /* HEader */
 
@@ -169,11 +200,66 @@ a:hover {
 
 .hero-btn{
   background-color: #ef502f;
-  color: white;
+  color: white !important;
+  position: relative;
 }
+
+
+.hero-btn::before{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 100%;
+  background: #2d2727;
+  left: 0px;
+  top: 0px;
+  transition: all 500ms ease;
+}
+
+.hero-btn:hover::before {
+  width: 100%;
+}
+
 .logo-2{
   max-width: 340px;
   height: auto;
+}
+
+/* Acerca */
+.wrapper-img-nosotros{
+  padding: 0px 40px 50px 0px;
+}
+
+.wrapper-img-nosotros::before{
+  content: "";
+  position: absolute;
+  background: #f5f0f0;
+  width: calc(100% + 0px);
+  height: calc(100% - 60px);
+  top: 60px;
+  left: -60px;
+  z-index: -1;
+}
+
+.info-img-nosotros{
+  position: absolute;
+  background-color: #ef502f;
+  color: white;
+  bottom: 0px;
+  left: -60px;
+  text-align: center;
+  padding: 30px 50px 30px;
+  max-width: 200px;
+}
+
+.icon-text-nosotros{
+  font-size: 60px;
+  line-height: 50px;
+  color: #ef502f;
+}
+
+i.checks-nosotros{
+  font-size: 22px;
 }
 
 /*--------------------------------------------------------------
