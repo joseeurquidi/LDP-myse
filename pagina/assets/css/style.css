@@ -430,11 +430,19 @@ i.checks-nosotros{
   background-color: #2d2727;
 }
 .cert-text{
-  padding: 115px 30px 120px 15px
+  padding: 115px 60px 120px 60px
 }
+
+
 .cert-text-box{
   max-width: 660px;
   margin-left: auto;
+}
+
+@media (max-width: 992px) {
+  .cert-text-box{
+    max-width: unset;
+  } 
 }
 .progress-box{
   position: relative;
@@ -469,6 +477,22 @@ i.checks-nosotros{
   background: #ef502f;
 }
 
+.img-cert{
+  background-image: url(https://placehold.co/800x1200);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+@media (max-width: 992px) {
+  .img-cert{
+    height: 600px;
+  }
+}
+
 /* Servicios */
 .servicios{
   background-color: #f5f0f0;
@@ -482,7 +506,7 @@ i.checks-nosotros{
   padding: 52px 15px 45px 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02);
   text-align: center;
-  min-height: 280px;
+  height: 100%;
 }
 
 .service-box::before{
