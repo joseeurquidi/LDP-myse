@@ -584,6 +584,12 @@ i.checks-nosotros{
   background: #ef502f;
   color: white;
 }
+
+/* clientes */
+.clientes{
+  background-color: #f5f0f0;
+  padding: 115px 0px 120px 0px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
